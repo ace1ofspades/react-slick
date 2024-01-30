@@ -605,6 +605,7 @@ export const getTrackCSS = spec => {
     transition: "",
     WebkitTransition: ""
   };
+  spec.left = 0;
   if (spec.useTransform) {
     let WebkitTransform = !spec.vertical
       ? "translate3d(" + spec.left + "px, 0px, 0px)"
