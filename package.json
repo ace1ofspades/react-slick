@@ -99,7 +99,7 @@
       "git add"
     ]
   },
-  "npmName": "react-slick",
+  "npmName": "react-slick-clone",
   "npmFileMap": [
     {
       "basePath": "/dist/",
